@@ -522,7 +522,7 @@ loop:
 				// should be a method reply
 				//
 				if remote.verbose {
-					log.Println("REPLY", message.ID, string(message.Result))
+					//log.Println("REPLY", message.ID, string(message.Result))
 				}
 
 				remote.Lock()
